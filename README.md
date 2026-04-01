@@ -69,16 +69,9 @@ npm install
 cp .env.example .env
 ```
 
-4. **Add your API key to `.env`:**
 
-```env
-PORT=5000
-ANTHROPIC_API_KEY=your_claude_api_key_here
-# OR use OpenAI:
-# OPENAI_API_KEY=your_openai_api_key_here
-```
 
-5. **Start the backend server:**
+4. **Start the backend server:**
 
 ```bash
 npm run dev
